@@ -1,0 +1,448 @@
+{
+  "project_info": {
+    "project_number": "30093748070",
+    "firebase_url": "https://awign-chat.firebaseio.com",
+    "project_id": "awign-chat",
+    "storage_bucket": "awign-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:840e612befa2d2f1",
+        "android_client_info": {
+          "package_name": "com.awign.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-6hvtk1mtk96fg0d6tq9jb2a7doqd5aic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.chat",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-f17q14gmdup2o4ppdo4nl0qrm5b0n46h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.chat",
+            "certificate_hash": "f633569940aa53f0d6cc4505189221367b837cc1"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:0e518d3145f273cd210aa7",
+        "android_client_info": {
+          "package_name": "com.awign.inhouse.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-ol1so8tdmdgsm1oa9ai1bqotplibk4ed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.inhouse.app",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:2edceffc36c47033",
+        "android_client_info": {
+          "package_name": "com.awign.intern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-b8v1fcvvd8tlmnnvpr1q14gptiddofka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.intern",
+            "certificate_hash": "4dd1336be084091586a9149bd8bb50b645e6b022"
+          }
+        },
+        {
+          "client_id": "30093748070-l07ihtr51mrjrrnp0rbagfo6n7b27vs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.intern",
+            "certificate_hash": "965fb1806473078c0128299ba9bfb7025f25dd81"
+          }
+        },
+        {
+          "client_id": "30093748070-ncirjnfe6r2cotsem0jlm5svkh3gjqo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.intern",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-ps819n82hti1csqplqsijk4n0f744tec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.intern",
+            "certificate_hash": "17f6fc876a808a861d878eb07db577f7081f9966"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:6c1b07e9deff9dbb",
+        "android_client_info": {
+          "package_name": "com.awign.intern.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:1cd2c15b96ee3938",
+        "android_client_info": {
+          "package_name": "com.awign.ops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-86insee6f65epq1pfh6i08lhp18sn73b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.ops",
+            "certificate_hash": "f633569940aa53f0d6cc4505189221367b837cc1"
+          }
+        },
+        {
+          "client_id": "30093748070-gf3jvg5bssqgfq0janqeddngeq3t9m1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.ops",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:144d34988d419181",
+        "android_client_info": {
+          "package_name": "com.awign.ops.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-4jqt6gc55n8p587n6h2aoef5mnpr3o2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.ops.debug",
+            "certificate_hash": "f633569940aa53f0d6cc4505189221367b837cc1"
+          }
+        },
+        {
+          "client_id": "30093748070-pe3nbqoghc5rrhcpkmjn4kro4gt29hsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.ops.debug",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:668ad7821663eb6d210aa7",
+        "android_client_info": {
+          "package_name": "com.awign.selfserve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-3njp7512snjbo89696411odrd39dm4ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.selfserve",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:0ed36250d5ee2fca210aa7",
+        "android_client_info": {
+          "package_name": "com.awign.selfserve.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-vsvbg6l1ssld6r53nagulic34d3ikogt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awign.selfserve.debug",
+            "certificate_hash": "ff2c57c927d08b7759a284bdf4f4f3cccd5dbde9"
+          }
+        },
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30093748070:android:de9a0a17acd986ce210aa7",
+        "android_client_info": {
+          "package_name": "com.awing.hrms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt2MSVfLT72G9CIOFUFwMVuosKDZL42Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30093748070-uhdn258qntmuq5v7f3egemb1hhfpejeq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30093748070-0g4j9vm9ctsg4stvgnanafcrlnqr8bt1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awign.intern",
+                "app_store_id": "1629391041"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

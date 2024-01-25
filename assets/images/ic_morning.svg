@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <style>
+            .cls-1{fill:#1f2d3d}
+        </style>
+    </defs>
+    <path id="ic_morning" d="M22 16a6 6 0 0 0-6 6 .368.368 0 0 0 .375.375h11.25A.368.368 0 0 0 28 22a6 6 0 0 0-6-6zm-5.625 7.5a.375.375 0 0 0 0 .75h11.25a.375.375 0 0 0 0-.75zm2.5 1.875a.375.375 0 0 0 0 .75h6.25a.375.375 0 0 0 0-.75zm2.5 1.875a.375.375 0 0 0 0 .75h1.25a.375.375 0 0 0 0-.75z" class="cls-1" transform="translate(-16 -16)"/>
+</svg>

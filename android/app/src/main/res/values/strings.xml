@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awign</string>
+    <string name="GEO_API_KEY">AIzaSyBfkTJm-OYiCzXi8_UpXlwV7K98UyynFMY</string>
+    <string name="facebook_app_id">432266565575272</string>
+    <string name="facebook_client_token">0d6c8959e8931914bc2ce76dba41db21</string>
+</resources>

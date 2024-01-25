@@ -1,0 +1,185 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.awign">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".AwignApplication"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GEO_API_KEY" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI. -->
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+            <!-- Displays an Android View that continues showing the launch screen
+                 Drawable until Flutter paints its first frame, then this splash
+                 screen fades out. A splash screen is useful to avoid any visual
+                 gap between the end of Android's launch screen and the painting of
+                 Flutter's first frame. -->
+            <meta-data
+                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+                android:resource="@drawable/launch_background" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Deep Links -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with YOUR_SCHEME://YOUR_HOST -->
+                <data android:scheme="http|https" />
+                <data android:host="www.awign.com" />
+                <data
+                    android:host="awign.com"
+                    android:scheme="http|https" />
+                <data
+                    android:host="awign.com"
+                    android:pathPrefix="/awign"
+                    android:scheme="http|https" />
+                <data
+                    android:host="www.awign.com"
+                    android:pathPrefix="/"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="new.awign.com"
+                    android:pathPrefix="/myjobs"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="new.awign.com"
+                    android:pathPrefix="/jobs"
+                    android:scheme="https" />
+
+                <data
+                    android:host="awign.com"
+                    android:pathPrefix="/jobs"
+                    android:scheme="https" />
+
+
+                <data
+                    android:host="awign.com"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.office.awign.com"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.office.awign.com"
+                    android:pathPrefix="/"
+                    android:scheme="http|https" />
+                <data
+                    android:host="www.office.awign.com"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="new.awigntest"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.new.awigntest.com"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.awigntest.com"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="awigntest.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.office.awigntest.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.awigntest.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.awign.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="www.awigntest.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+
+                <data
+                    android:host="office.awigntest.com"
+                    android:pathPrefix="/office"
+                    android:scheme="http|https" />
+            </intent-filter>
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http|https" android:host="www.awign.com"  />
+                <data android:scheme="awignotpless" android:host="otpless" />
+
+                <data
+                    android:host="www.awign.com"
+                    android:scheme="http|https" />
+            </intent-filter>
+
+        </activity>
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+        <provider
+            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+            android:authorities="${applicationId}.flutter_downloader.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name="com.moengage.firebase.MoEFireBaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

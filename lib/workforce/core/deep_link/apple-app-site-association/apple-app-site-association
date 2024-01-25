@@ -1,0 +1,9 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "G8FS8UF7FF.com.awign.intern",
+            "paths": ["*", "/"]
+        }]
+    }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>whatsapp</string>
+        <string>tel</string>
+    </array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+		    <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>otpless</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>awignotpless</string>
+                <string>fb432266565575272</string>
+                <string>com.googleusercontent.apps.30093748070-oq1bqtofl1h53n2e8k6kk5860v68d2ge</string>
+            </array>
+		</dict>
+	</array>
+
+    <key>FacebookAppID</key>
+    <string>432266565575272</string>
+    <key>FacebookClientToken</key>
+    <string>0d6c8959e8931914bc2ce76dba41db21</string>
+    <key>FacebookDisplayName</key>
+    <string>Awign Enterprises Pvt. Ltd.</string>
+
+	<key></key>
+	<string></string>
+	<key>FlutterDeepLinkingEnabled</key>
+	<false/>
+	<key>CleverTapToken</key>
+	<string>$(CLEVERTAP_TOKEN)</string>
+	<key>CleverTapAccountID</key>
+	<string>$(CLEVERTAP_ACCOUNT_ID)</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(APP_DISPLAY_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>awign</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app requires access to the audio library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses the camera to capture photos and images for work-related tasks and document scanning as needed by Awign projects.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location when open.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses the microphone to record your speech.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>we would like access to store Image/Videos in your Photo Library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to the photo library.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>
